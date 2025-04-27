@@ -558,7 +558,7 @@ class BehaviorAgent(BasicAgent):
                 response = requests.post(
                         url="https://openrouter.ai/api/v1/chat/completions",
                         headers={
-                            "Authorization": "Bearer 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",
+                            "Authorization": "Bearer open_router api-key",
                             "Content-Type": "application/json",
                             "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional
                             "X-Title": "<YOUR_SITE_NAME>",      # Optional
