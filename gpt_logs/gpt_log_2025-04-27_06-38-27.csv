@@ -1,0 +1,109 @@
+time_s,time_r,message,response
+2025-04-27 06:38:27.317066,2025-04-27 06:38:31.319426,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.740880 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.749055 m', 'Speed': '0.007535 km/h'}
+","{""Situation"": ""The agent car slowly following another moving vehicle 2 meters ahead."",
+""Reasoning"": ""To maintain a safe distance but keep moving, the agent car should carefully increase speed slightly while keeping a safe distance."",
+""Action"": ""speed_up""},"
+2025-04-27 06:38:31.349927,2025-04-27 06:38:34.941504,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 7.620484 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.732231 m', 'Speed': '0.001068 km/h'}
+","{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}"
+2025-04-27 06:38:34.976925,2025-04-27 06:38:40.598710,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 3.238553 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721834 m', 'Speed': '0.000367 km/h'}
+","```json
+{
+    ""Situation"": ""The agent car is changing lanes to the right at 3.24km/h due to a nearby stationary vehicle ahead. No walkers, no lane change allowed."",
+    ""Reasoning"": ""As the vehicle ahead is stationary and very close,Slowing down is a safer, but a right lane change has already initiated, despite a prohibition of right lane changes."",
+    ""Action"": ""speed_down""
+}
+```"
+2025-04-27 06:38:40.614643,2025-04-27 06:38:45.858436,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.694027 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721737 m', 'Speed': '0.000020 km/h'}
+","{""Situation"": ""The agent car is at 0.694 km/h during a right lane change, 2.722 meters behind a stationary vehicle in its lane. No walkers. Traffic light is green."", ""Reasoning"": ""Keep system applying the deceleration to the agent car until the distance is greater than 2 meters."", ""Action"": ""speed_down""}"
+2025-04-27 06:38:45.871607,2025-04-27 06:38:52.082018,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is at 0.694 km/h during a right lane change, 2.722 meters behind a stationary vehicle in its lane. No walkers. Traffic light is green."", ""Reasoning"": ""Keep system applying the deceleration to the agent car until the distance is greater than 2 meters."", ""Action"": ""speed_down""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.136615 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721654 m', 'Speed': '0.000007 km/h'}
+","{""Situation"": ""The agent car is currently changing lanes to the right but is blocked by a stationary vehicle 2.721654 meters ahead. No walkers are present. Traffic light is green."", ""Reasoning"": ""The agent car should stop to avoid collision with the stationary vehicle."",  ""Action"": ""stop""}"
+2025-04-27 06:38:52.099157,2025-04-27 06:39:04.673860,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is at 0.694 km/h during a right lane change, 2.722 meters behind a stationary vehicle in its lane. No walkers. Traffic light is green."", ""Reasoning"": ""Keep system applying the deceleration to the agent car until the distance is greater than 2 meters."", ""Action"": ""speed_down""}, {""Situation"": ""The agent car is currently changing lanes to the right but is blocked by a stationary vehicle 2.721654 meters ahead. No walkers are present. Traffic light is green."", ""Reasoning"": ""The agent car should stop to avoid collision with the stationary vehicle."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.013849 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721650 m', 'Speed': '0.000024 km/h'}
+","```{""Situation"": ""The agent car is stopped during a right lane change, blocked by a stationary vehicle 2.721650 meters ahead.  No pedestrians are in front."", ""Reasoning"": ""As the agent car has executed all its previous possible commands to get to safety and cannot change lanes, it should keep stopped. Keep applying deceleration."", ""Action"": ""speed_down""}```"
+2025-04-27 06:39:04.700121,2025-04-27 06:39:09.262150,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is at 0.694 km/h during a right lane change, 2.722 meters behind a stationary vehicle in its lane. No walkers. Traffic light is green."", ""Reasoning"": ""Keep system applying the deceleration to the agent car until the distance is greater than 2 meters."", ""Action"": ""speed_down""}, {""Situation"": ""The agent car is currently changing lanes to the right but is blocked by a stationary vehicle 2.721654 meters ahead. No walkers are present. Traffic light is green."", ""Reasoning"": ""The agent car should stop to avoid collision with the stationary vehicle."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721650 m', 'Speed': '0.000005 km/h'}
+","```{""Situation"": ""The agent car is stopped during a right lane change 2.721 meters behind a stationary vehicle in its lane. Traffic light is green. No pedestrians."", ""Reasoning"": ""The agent car needs to wait until the stationary vehicle moves or a left lane change allowed."", ""Action"": ""maintain_speed""}```"
+2025-04-27 06:39:09.280194,2025-04-27 06:39:13.499971,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is at 0.694 km/h during a right lane change, 2.722 meters behind a stationary vehicle in its lane. No walkers. Traffic light is green."", ""Reasoning"": ""Keep system applying the deceleration to the agent car until the distance is greater than 2 meters."", ""Action"": ""speed_down""}, {""Situation"": ""The agent car is currently changing lanes to the right but is blocked by a stationary vehicle 2.721654 meters ahead. No walkers are present. Traffic light is green."", ""Reasoning"": ""The agent car should stop to avoid collision with the stationary vehicle."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721650 m', 'Speed': '0.000011 km/h'}
+","```json
+{""Situation"": ""The agent car is stopped at 0.0000m/h while changing lanes due to a vehicle 2.722m ahead which is stationary. No walkers, no lane changes allowed."",
+ ""Reasoning"": ""Since the agent car is at a stop during a lane change and is blocked by a stationary vehicle ahead, it should remain stopped."",
+ ""Action"": ""stop""}
+```"
+2025-04-27 06:39:13.517958,2025-04-27 06:39:17.654220,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane at 7.620484km/h, and there is a stationary vehicle 2.732231m ahead causing the agent car to move at a low speed. No walkers, no lane changes allowed."", ""Reasoning"": ""Given the stationary vehicle nearby, the agent car should maintain its speed If the distance from the vehicle in front keeps getting short and it is lower than 2 meters, the agent car should start decelerating."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is at 0.694 km/h during a right lane change, 2.722 meters behind a stationary vehicle in its lane. No walkers. Traffic light is green."", ""Reasoning"": ""Keep system applying the deceleration to the agent car until the distance is greater than 2 meters."", ""Action"": ""speed_down""}, {""Situation"": ""The agent car is currently changing lanes to the right but is blocked by a stationary vehicle 2.721654 meters ahead. No walkers are present. Traffic light is green."", ""Reasoning"": ""The agent car should stop to avoid collision with the stationary vehicle."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.721650 m', 'Speed': '0.000006 km/h'}
+","```json
+{
+  ""Situation"": ""The agent car is currently stopped while changing lanes to the right, blocked by a vehicle 2.722m ahead. No walkers, traffic light is green."",
+  ""Reasoning"": ""The vehicle is still blocking the target lane for lane change. First, make sure to avoid the collision with the obstacle. Then, keep changing to the right lane."",
+  ""Action"": ""speed_down""
+}
+```"

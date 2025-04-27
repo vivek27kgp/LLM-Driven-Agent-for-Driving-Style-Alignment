@@ -1,0 +1,38 @@
+You are a driver in the CARLA simulator. Drive the agent car to its destination on a city road. Base your actions only on the information I provide.
+
+[PART 1] INFORMATION:
+Car_Speed: 25 km/h
+Car_Speed_limit: 50 km/h
+Car_Direction: 4
+Car_Incoming_direction: 4
+Car_at_Traffic_light: False
+Walkers_ahead: {"distance":5,"position":"center","direction":"stationary"}
+Vehicle_ahead: False
+is_right_lane_change_allowed: False
+is_left_lane_change_allowed: True
+
+Weather_Conditions: rain=0%, fog=0%, wind_intensity=5%, humidity=50%, sun_altitude=45°
+
+PREVIOUS DRIVING BEHAVIORS (Short-Term Memory):
+
+{"Situation":"Navigating crowd at 30 km/h","Reasoning":"High pedestrian density, slow down","Action":"speed_down"}
+
+{"Situation":"Walker stopped ahead at 5m","Reasoning":"Stop to avoid collision","Action":"stop"}
+
+{"Situation":"Left lane open","Reasoning":"Unable to cross crowd on right","Action":"lane_changing_left"}
+
+{"Situation":"Approaching next junction","Reasoning":"Maintain low speed","Action":"maintain_speed"}
+
+[PART 2] ACTION LIBRARY:
+(as above)
+
+[PART 3] DRIVING BEHAVIOR
+(As above)
+
+[PART 4] EXAMPLE
+{"Situation":"The agent car is in a crosswalk area at 25 km/h with a walker 5 m ahead.","Reasoning":"Pedestrian crossing; must stop and yield.","Action":"stop"}
+{"Situation":"Left lane is open but high crowd density on right","Reasoning":"Change lane to bypass pedestrian cluster safely.","Action":"lane_changing_left"}
+
+[PART 5] FORMAT
+You should only respond in the format below:
+{"Situation":"......","Reasoning":"......","Action":"......"}

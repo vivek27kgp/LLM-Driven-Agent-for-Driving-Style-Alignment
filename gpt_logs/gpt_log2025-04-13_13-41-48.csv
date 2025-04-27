@@ -1,0 +1,286 @@
+time_s,time_r,message,response
+2025-04-13 13:41:48.942665,2025-04-13 13:41:53.250488,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.642096 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+    ""Situation"": ""The agent vehicle is currently stopped, speeding up is allowed."",
+    ""Reasoning"": ""The vehicle is stopped. The speed limit is 30km/h. The agent車 should increase speed."",
+    ""Action"": ""speed_up""
+}
+```"
+2025-04-13 13:41:53.258408,2025-04-13 13:41:55.670726,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 10.965020 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+ ""Situation"": ""The car is under the speed limit and following the lane with no obstacles ahead with a green light."",
+  ""Reasoning"": ""Following the road without any imminent obstacles. Speed up safely."",
+  ""Action"":""speed_up""
+}
+```"
+2025-04-13 13:41:55.679080,2025-04-13 13:41:59.775694,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.157994 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is stopped and following lane. Nothing is blocking ahead. The left lane change is currently allowed and traffic light is green."", ""Reasoning"": ""Start moving along the lane according to global navigation. Accelerate to approach speed limit."", ""Action"": ""speed_up""}
+```"
+2025-04-13 13:41:59.777906,2025-04-13 13:42:04.390794,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.453267 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}"
+2025-04-13 13:42:04.394205,2025-04-13 13:42:08.591818,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.049728 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is currently stopped following the lane. The roads are empty. Traffic light is green."",
+  ""Reasoning"": ""The agent car can accelerate since the traffic light is green and the road ahead is clear."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-13 13:42:08.597680,2025-04-13 13:42:12.145408,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.005092 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The car is on an open free road at zero speed, changing left lanes with no walkers, vehicles or red lights ahead."",
+ ""Reasoning"": ""Only allowable is left lane change to follow destination. Accelerate now towards speed limit."", ""Action"": ""speed_up""}"
+2025-04-13 13:42:12.150328,2025-04-13 13:42:15.686085,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}, {""Situation"": ""The car is on an open free road at zero speed, changing left lanes with no walkers, vehicles or red lights ahead."", ""Reasoning"": ""Only allowable is left lane change to follow destination. Accelerate now towards speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000673 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{
+""Situation"": ""The agent car is changing to the left lane at 0km/h on a green light with no vehicles or walkers ahead."",
+""Reasoning"": ""Follow destination path. Accelerate now to match speed limit or maximum while changing lanes."",
+""Action"":""speed_up""
+}"
+2025-04-13 13:42:15.690839,2025-04-13 13:42:20.945561,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}, {""Situation"": ""The car is on an open free road at zero speed, changing left lanes with no walkers, vehicles or red lights ahead."", ""Reasoning"": ""Only allowable is left lane change to follow destination. Accelerate now towards speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 0km/h on a green light with no vehicles or walkers ahead."", ""Reasoning"": ""Follow destination path. Accelerate now to match speed limit or maximum while changing lanes."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 4.215140 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""Agent car is changing lanes to the left at low speed, on a green light and the road ahead is empty, and the car is continuing following the lane at low speed."",
+  ""Reasoning"": ""Continue lane change and transition to normal behavior with speed limit as the destination is followed."",
+  ""Action"": ""{\""Action\"" : \""speed_up\""}""
+}
+```"
+2025-04-13 13:42:20.957882,2025-04-13 13:42:24.402937,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}, {""Situation"": ""The car is on an open free road at zero speed, changing left lanes with no walkers, vehicles or red lights ahead."", ""Reasoning"": ""Only allowable is left lane change to follow destination. Accelerate now towards speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 0km/h on a green light with no vehicles or walkers ahead."", ""Reasoning"": ""Follow destination path. Accelerate now to match speed limit or maximum while changing lanes."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 6.483003 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is changing to the left lane at 6.5km/h with no obstacles ahead and the traffic light is green."",
+""Reasoning"": ""With no obstacles ahead and a green light, the agent car should increase speed while following destination path."",
+""Action"": ""speed_up""}"
+2025-04-13 13:42:24.409843,2025-04-13 13:42:28.640347,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped and following the lane. Traffic light is green and the car's in an empty straight road."", ""Reasoning"": ""Since the traffic light ahead is green, the agent car should begin to accelerate carefully towards the speed limit while maintaining safety."", ""Action"": ""speed_up""}, {""Situation"": ""The car is on an open free road at zero speed, changing left lanes with no walkers, vehicles or red lights ahead."", ""Reasoning"": ""Only allowable is left lane change to follow destination. Accelerate now towards speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 0km/h on a green light with no vehicles or walkers ahead."", ""Reasoning"": ""Follow destination path. Accelerate now to match speed limit or maximum while changing lanes."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 6.5km/h with no obstacles ahead and the traffic light is green."", ""Reasoning"": ""With no obstacles ahead and a green light, the agent car should increase speed while following destination path."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 7.827385 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is accelerating at 7.82km/h while changing left lanes as it follows the traffic lane on a free road with no barriers ahead and green light."", ""Reasoning"": ""No vehicles or trauma ahead. Continue speeding up to match the speed of the maximum speed that agent's vehicle can go."", ""Action"": ""speed_up""}"
+2025-04-13 13:42:28.644208,2025-04-13 13:42:32.870592,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The car is on an open free road at zero speed, changing left lanes with no walkers, vehicles or red lights ahead."", ""Reasoning"": ""Only allowable is left lane change to follow destination. Accelerate now towards speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 0km/h on a green light with no vehicles or walkers ahead."", ""Reasoning"": ""Follow destination path. Accelerate now to match speed limit or maximum while changing lanes."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 6.5km/h with no obstacles ahead and the traffic light is green."", ""Reasoning"": ""With no obstacles ahead and a green light, the agent car should increase speed while following destination path."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is accelerating at 7.82km/h while changing left lanes as it follows the traffic lane on a free road with no barriers ahead and green light."", ""Reasoning"": ""No vehicles or trauma ahead. Continue speeding up to match the speed of the maximum speed that agent's vehicle can go."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 9.236034 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is increasing speed at 9.2 km/h while changing left lanes. There are no vehicles, walkers or red lights ahead."", ""Reasoning"":  ""With no obstacles ahead and no lane change allowed, stay with current lane change and calmly speed up."",""Action"": ""speed_up""}"
+2025-04-13 13:42:32.874102,2025-04-13 13:42:36.205253,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane at 0km/h on a green light with no vehicles or walkers ahead."", ""Reasoning"": ""Follow destination path. Accelerate now to match speed limit or maximum while changing lanes."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane at 6.5km/h with no obstacles ahead and the traffic light is green."", ""Reasoning"": ""With no obstacles ahead and a green light, the agent car should increase speed while following destination path."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is accelerating at 7.82km/h while changing left lanes as it follows the traffic lane on a free road with no barriers ahead and green light."", ""Reasoning"": ""No vehicles or trauma ahead. Continue speeding up to match the speed of the maximum speed that agent's vehicle can go."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is increasing speed at 9.2 km/h while changing left lanes. There are no vehicles, walkers or red lights ahead."", ""Reasoning"": ""With no obstacles ahead and no lane change allowed, stay with current lane change and calmly speed up."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 10.467411 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."",""Action"": ""speed_up""}"
+2025-04-13 13:42:36.210782,2025-04-13 13:42:40.077700,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane at 6.5km/h with no obstacles ahead and the traffic light is green."", ""Reasoning"": ""With no obstacles ahead and a green light, the agent car should increase speed while following destination path."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is accelerating at 7.82km/h while changing left lanes as it follows the traffic lane on a free road with no barriers ahead and green light."", ""Reasoning"": ""No vehicles or trauma ahead. Continue speeding up to match the speed of the maximum speed that agent's vehicle can go."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is increasing speed at 9.2 km/h while changing left lanes. There are no vehicles, walkers or red lights ahead."", ""Reasoning"": ""With no obstacles ahead and no lane change allowed, stay with current lane change and calmly speed up."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.446701 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."",
+ ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."",
+ ""Action"": ""speed_up""}"
+2025-04-13 13:42:40.090458,2025-04-13 13:42:43.457814,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is accelerating at 7.82km/h while changing left lanes as it follows the traffic lane on a free road with no barriers ahead and green light."", ""Reasoning"": ""No vehicles or trauma ahead. Continue speeding up to match the speed of the maximum speed that agent's vehicle can go."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is increasing speed at 9.2 km/h while changing left lanes. There are no vehicles, walkers or red lights ahead."", ""Reasoning"": ""With no obstacles ahead and no lane change allowed, stay with current lane change and calmly speed up."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 12.608659 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```
+
+{
+""Situation"": ""The agent car is changing lanes to the left at 12.61km/h with no obstacles or traffic lights ahead. Speed lower than speed limit."",
+""Reasoning"": ""Continue accelerating and change lane with safe speed."",
+""Action"": ""speed_up""
+}
+```"
+2025-04-13 13:42:43.462344,2025-04-13 13:42:46.373215,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is accelerating at 7.82km/h while changing left lanes as it follows the traffic lane on a free road with no barriers ahead and green light."", ""Reasoning"": ""No vehicles or trauma ahead. Continue speeding up to match the speed of the maximum speed that agent's vehicle can go."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is increasing speed at 9.2 km/h while changing left lanes. There are no vehicles, walkers or red lights ahead."", ""Reasoning"": ""With no obstacles ahead and no lane change allowed, stay with current lane change and calmly speed up."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 13.637000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."",
+ ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."",
+ ""Action"": ""normal_behavior""}"
+2025-04-13 13:42:46.376390,2025-04-13 13:42:49.060828,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is increasing speed at 9.2 km/h while changing left lanes. There are no vehicles, walkers or red lights ahead."", ""Reasoning"": ""With no obstacles ahead and no lane change allowed, stay with current lane change and calmly speed up."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 14.543184 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."",
+""Reasoning"":""No more need for transition speed increase. Proceed with driving normally to reach speed limit."",
+""Action"": ""normal_behavior""}"
+2025-04-13 13:42:49.064889,2025-04-13 13:42:53.191098,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."", ""Reasoning"": ""No more need for transition speed increase. Proceed with driving normally to reach speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 16.245866 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The car is following the left lane normally, accelerating within speed limit, with no vehicles, walkers, or traffic lights ahead."",
+  ""Reasoning"": ""There are no obstacles ahead or any reason to change lanes. Accelerate continuously to reach the speed limit."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-13 13:42:53.193303,2025-04-13 13:42:57.113515,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."", ""Reasoning"": ""No more need for transition speed increase. Proceed with driving normally to reach speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 20.000219 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is maintaining speed following the left lane without traffic lights."", ""Reasoning"": ""With no obstacles ahead and having completed lane change. Keep accelerating to reach the speed limit."", ""Action"": ""speed_up""}
+```"
+2025-04-13 13:42:57.127769,2025-04-13 13:43:02.408600,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."", ""Reasoning"": ""No more need for transition speed increase. Proceed with driving normally to reach speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 23.481301 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","You should respond in the format provided.
+{""Situation"": ""The agent is driving on the left lane at 23.48km/h, following the lane with no obstacles ahead and is permitted to change to the right lane."", ""Reasoning"": ""The left lane is clear and the left lane change is complete. The speed is also increased to the speed limit. No inconsistencies are found that would require an action so the agent car should continue to maintain its normal driving behavior as per navigation."", ""Action"": ""normal_behavior""}"
+2025-04-13 13:43:02.414527,2025-04-13 13:43:06.419415,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."", ""Reasoning"": ""No more need for transition speed increase. Proceed with driving normally to reach speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 26.674242 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car/lane is following lane. No traffic lights, people, or vehicles in front. Speed is 26.67 km/h close to speed limit."",
+  ""Reasoning"": ""Continue adjusting speed towards speed limit to keep moving. Continue accelarating, since no obstacles ahead."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-13 13:43:06.422702,2025-04-13 13:43:11.945788,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."", ""Reasoning"": ""No more need for transition speed increase. Proceed with driving normally to reach speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 26.545080 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"":""The agent car is traveling at 26.5 km/h on a road with a speed limit of 30. It is moving straight with no vehicles or walkers ahead. The left-way traffic is not allowed, also no changes in road or lane."",""Reasoning"":""Since the speed is within the limit, and the current road allows for straightforward driving, the car should maintain the current trajectory and approach the speed limit as soon as possible"",""Action"":""normal_behavior""}
+```"
+2025-04-13 13:43:11.950357,2025-04-13 13:43:15.510183,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing to the left lane with a speed of around 10.47 km/h, where there is no traffic light ahead, no vehicles or walkers in front of the agent car and maximum speed is 30 km/h."", ""Reasoning"": ""Change to the left lane has already been initiated with no obstacles ahead or lane change command. Keep accelerating to reach the designated speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent vehicle is changing to the left lane at 11.446701 km/h with no traffic lights, vehicles, or walkers ahead. The speed limit is 30.0 km/h."", ""Reasoning"": ""Continue accelerating in the left lane change to reach the speed limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is changing left lanes, accelerating at 13.637km/h. There are no barriers, walkers, or vehicles ahead."", ""Reasoning"": ""There are no obstacles ahead upon the current left lane change, so drive through."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is completely changing to the left lane at 14.543km/h with no traffic lights, barriers, vehicles or walkers ahead."", ""Reasoning"": ""No more need for transition speed increase. Proceed with driving normally to reach speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 26.497245 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is maintaining speed on left lane, no obstacles and driving alone in the road. Speed is slightly below speed limit without traffic lights ahead."",
+ ""Reasoning"": ""Keep following the road waypoints, accelerate to reach the speed limit. The road is clear just increase speed a little bit to match the limit."",
+ ""Action"":""speed_up""}"

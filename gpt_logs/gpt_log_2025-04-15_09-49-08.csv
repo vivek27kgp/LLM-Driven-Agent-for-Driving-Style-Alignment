@@ -1,0 +1,255 @@
+time_s,time_r,message,response
+2025-04-15 09:49:08.176970,2025-04-15 09:49:12.885113,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 1.375920 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '3.724187 m', 'Speed': '0.001461 km/h'}
+","```json
+{
+""Situation"":""Ahead vehicle is very close, will collide soon but the vehicle is static."",
+""Reasoning"":""The agent car is traveling at an extremely low speed and a vehicle is blocking the path. Must proceed with stationary vehicle safely beforehand."",
+""Action"":""ACTION_NAME: speed_down""
+},
+```"
+2025-04-15 09:49:12.903534,2025-04-15 09:49:16.730072,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.809073 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '3.704088 m', 'Speed': '0.000276 km/h'}
+","{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."",  ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."",  ""Action"": ""speed_up""}"
+2025-04-15 09:49:16.743437,2025-04-15 09:49:20.484284,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.127976 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '3.703779 m', 'Speed': '0.000024 km/h'}
+","```json
+{
+    ""Situation"": ""The agent car is driving slowly and following lane, the preceding vehicle is 3.7 meters ahead."",
+    ""Reasoning"": ""The straight preceding vehicle is moving slowly. The agent car should follow in lane and accelerate right past the preceding vehicle."",
+    ""Action"": ""speed_up""
+}
+```"
+2025-04-15 09:49:20.496308,2025-04-15 09:49:26.121657,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.005558 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '3.703774 m', 'Speed': '0.000021 km/h'}
+","```json
+{
+    ""Situation"": ""The agent car is attempting to change lanes left but traffic ahead is stopped in proximity."",
+    ""Reasoning"": ""The agent should follow the vehicle ahead and prepare to move forward forcefully.Pedestrians ahead are not present so straight movement is fine."",
+    ""Action"": ""normal_behavior""
+}
+```"
+2025-04-15 09:49:26.132596,2025-04-15 09:49:30.632141,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 4.733645 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '3.205225 m', 'Speed': '0.000009 km/h'}
+","```json
+{
+  ""Situation"": ""The agent car is changing lanes left, there is a vehicle stopped 3.2 meters ahead, and the upcoming traffic light is green."",
+  ""Reasoning"": ""There is plenty of time. Now that the agent car is stopped, maintain current speed."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-15 09:49:30.656135,2025-04-15 09:49:35.236896,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 7.642682 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '2.362104 m', 'Speed': '0.000010 km/h'}
+","{""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."",
+ ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."" ,""Action"": ""maintain_speed""}"
+2025-04-15 09:49:35.249920,2025-04-15 09:49:40.055991,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 10.092115 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '1.203071 m', 'Speed': '0.000010 km/h'}
+","{""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."",
+ ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."",
+ ""Action"": ""maintain_speed""}"
+2025-04-15 09:49:40.078578,2025-04-15 09:49:45.411880,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 9.755277 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '-0.200165 m', 'Speed': '0.000014 km/h'}
+","{""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}"
+2025-04-15 09:49:45.432791,2025-04-15 09:49:51.185945,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 9.738698 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '-1.670306 m', 'Speed': '0.000005 km/h'}
+","```json
+{""Situation"": ""The stopped agent car has collided with  a vehicle directly -1.67m ahead while moving at 9.73 km/h with a speed limit of 30. The local planner is guiding the agent car to resume lane-following. Traffic light is red ahead. No lane changes allowed, no pedestrians."", ""Reasoning"": ""The agent car  needs to stop after the collision. Emergency protocols should be initiated and maintained while this is dealt with."", ""Action"":""stop""}
+```"
+2025-04-15 09:49:51.197669,2025-04-15 09:49:56.169856,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped, the vehicle ahead is also stopped and the traffic light is green for the agent car. A lane change is not allowed."", ""Reasoning"": ""Approaching vehicle is stationary 3.7 meters ahead, possibly causing traffic. The agent car needs to consider careful maneuvering. When there is a lane change to be made in the future, execute accordingly."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.016874 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."",
+ ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."",
+ ""Action"": ""stop""}"
+2025-04-15 09:49:56.189579,2025-04-15 09:50:00.368766,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","This is the agent car's decision-making:
+
+{""Situation"": ""The agent car is stalled changing to the left lane at a red light, local navigation is invalid, no vehicles or pedestrians ahead."", ""Reasoning"": ""The agent car should not move. If stuck in the current position for too long it will hamper traffic."", ""Action"": ""stop""}"
+2025-04-15 09:50:00.381029,2025-04-15 09:50:05.631790,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```{
+""Situation"":""The agent car is at a red light and stopped while changing to the left lane, but left lane changing is not allowed, the agent car wish to switch to the right lane."",
+""Reasoning"": ""The agent car needs to stop since it's facing a red light.  No vehicles ahead, so the agent car can proceed to change lanes to the right and it can keep following its route later."",
+""Action"": ""lane_changing_right""}
+```"
+2025-04-15 09:50:05.646404,2025-04-15 09:50:09.373800,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""Vehicle directly in front has just moved out of the way while the agent car was changing to the left lane, traffic light is red."",
+""Reasoning"": ""The agent car cannot proceed due to a red light. The agent car should be stopped."",
+""Action"": ""Action"":""stop"""
+2025-04-15 09:50:09.383673,2025-04-15 09:50:14.264834,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+    ""Situation"": ""The agent car is stopped while changing to the left lane, at a red light. No vehicles or pedestrians ahead."",
+    ""Reasoning"": ""The agent car should remain stopped. Stay in the Lanae change state though no left lane change is allowed and do not attempt to move."",   ""Action"":""stop""
+}
+```"
+2025-04-15 09:50:14.276002,2025-04-15 09:50:18.374554,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is navigating to change to the left lane, with a vehicle stopped 2.36 meters ahead. Local navigation is valid. No pedestrians or traffic lights ahead."", ""Reasoning"": ""Due to the vehicle stopped ahead, the agent car should maintain speed while in a lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is paused in the middle of the lane while changing to the left, stopped at a red light. No vehicles or pedestrians ahead; nearby lanes are relatively open."",
+ ""Reasoning"": ""The agent car should stay stopped despite the upcoming safe and open lane because of the red light."",
+ ""Action"":""stop""}"
+2025-04-15 09:50:18.385994,2025-04-15 09:50:23.046043,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}, {""Situation"": ""The agent car is paused in the middle of the lane while changing to the left, stopped at a red light. No vehicles or pedestrians ahead; nearby lanes are relatively open."", ""Reasoning"": ""The agent car should stay stopped despite the upcoming safe and open lane because of the red light."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"":""The agent car is at a stop while turning left, can't change lanes left, no vehicles or pedestrians ahead, and the light is red"", ""Reasoning"":"" The agent should remain stopped due to the red light, keeping the left lane change despite the safety of the surrounding area."",""Action"":""stop""}
+```"
+2025-04-15 09:50:23.056059,2025-04-15 09:50:26.254478,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}, {""Situation"": ""The agent car is paused in the middle of the lane while changing to the left, stopped at a red light. No vehicles or pedestrians ahead; nearby lanes are relatively open."", ""Reasoning"": ""The agent car should stay stopped despite the upcoming safe and open lane because of the red light."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"":""The agent car is at a stoplight while still changing to the left lane. There is no traffic nearby?"",  ""Reasoning"":""Given the stopped state and red light, the car should stay stopped. When the light turns green, it should change its direction to a lane follower."", ""Action"":""stop""}."
+2025-04-15 09:50:26.268282,2025-04-15 09:50:31.543868,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing lanes to the left, encountering a vehicle 1.2 meters ahead. It will follow its lane afterwards."", ""Reasoning"": ""The agent car must wait for the vehicle ahead to move, while maintaining speed in this lane change state."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}, {""Situation"": ""The agent car is paused in the middle of the lane while changing to the left, stopped at a red light. No vehicles or pedestrians ahead; nearby lanes are relatively open."", ""Reasoning"": ""The agent car should stay stopped despite the upcoming safe and open lane because of the red light."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is stopped while changing lanes to the left, approaching a red traffic light, with no vehicles or pedestrians ahead and all paths relatively open."",
+ ""Reasoning"": ""Given the red light and lack of vehicle or pedestrian obstruction, wait for the green signal to resume move, never move while performing a lane change."",
+ ""Action"": ""stop""}"
+2025-04-15 09:50:31.557234,2025-04-15 09:50:37.785126,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}, {""Situation"": ""The agent car is paused in the middle of the lane while changing to the left, stopped at a red light. No vehicles or pedestrians ahead; nearby lanes are relatively open."", ""Reasoning"": ""The agent car should stay stopped despite the upcoming safe and open lane because of the red light."", ""Action"": ""stop""}, {""Situation"": ""The agent car is stopped while changing lanes to the left, approaching a red traffic light, with no vehicles or pedestrians ahead and all paths relatively open."", ""Reasoning"": ""Given the red light and lack of vehicle or pedestrian obstruction, wait for the green signal to resume move, never move while performing a lane change."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is stopped while changing to the left lane and approaching a red light with no vehicles or walkers ahead."",
+ ""Reasoning"": ""Given the red light and lane change, the agent car should stop. Never move while performing a lane change."",
+ ""Action"": ""stop""}
+```"
+2025-04-15 09:50:37.794105,2025-04-15 09:50:42.358989,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is changing lanes to the left, but has collided with a vehicle blocking its path. Current speed: 9.75 km/h."", ""Reasoning"": ""An emergency stop is needed due to collision, previous speed-up action has led to collision. Start emergency protocols."", ""Action"": ""stop""}, {""Situation"": ""The agent car needs to stop at a red light while changing to the left lane, but a left lane change is not allowed."", ""Reasoning"": ""The agent car should not move when facing a red light. It should stay where it is, while switching to global navigation."", ""Action"": ""stop""}, {""Situation"": ""The agent car is paused in the middle of the lane while changing to the left, stopped at a red light. No vehicles or pedestrians ahead; nearby lanes are relatively open."", ""Reasoning"": ""The agent car should stay stopped despite the upcoming safe and open lane because of the red light."", ""Action"": ""stop""}, {""Situation"": ""The agent car is stopped while changing lanes to the left, approaching a red traffic light, with no vehicles or pedestrians ahead and all paths relatively open."", ""Reasoning"": ""Given the red light and lack of vehicle or pedestrian obstruction, wait for the green signal to resume move, never move while performing a lane change."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000000 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANELEFT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:True
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is paused while changing lanes to the left, currently stopped at a red light with no vehicles or pedestrians ahead mean the agent car is ready to resume driving when the signal is green."", ""Reasoning"": ""The agent is stopped, but needs to switch to NOT performing a lante change, the agent car should stay stopped due to the red light. In situations with too close of an allowed lane, the agent car is prude to not change lanes when the ability returns."", ""Action"": ""stop.""}"

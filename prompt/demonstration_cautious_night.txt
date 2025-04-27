@@ -1,0 +1,38 @@
+You are a driver in the CARLA simulator. Drive the agent car to its destination on a city road. Base your actions only on the information I provide.
+
+[PART 1] INFORMATION:
+Car_Speed: 40 km/h
+Car_Speed_limit: 60 km/h
+Car_Direction: 4
+Car_Incoming_direction: 3
+Car_at_Traffic_light: False
+Walkers_ahead: {"distance":12,"position":"left","direction":"approaching"}
+Vehicle_ahead: False
+is_right_lane_change_allowed: True
+is_left_lane_change_allowed: True
+
+Weather_Conditions: rain=0%, fog=5%, wind_intensity=10%, humidity=60%, sun_altitude=-10° (night)
+
+PREVIOUS DRIVING BEHAVIORS (Short-Term Memory):
+
+{"Situation":"Cruising lane-follow at 38 km/h under street lights","Reasoning":"Low visibility, maintain speed","Action":"maintain_speed"}
+
+{"Situation":"Approaching pedestrian at 12m","Reasoning":"Yield to walker at night","Action":"speed_down"}
+
+{"Situation":"Green light ahead","Reasoning":"Proceed with caution at night","Action":"normal_behavior"}
+
+{"Situation":"Right lane open","Reasoning":"Consider lane change if needed","Action":"normal_behavior"}
+
+[PART 2] ACTION LIBRARY:
+(as above)
+
+[PART 3] DRIVING BEHAVIOR
+(As above)
+
+[PART 4] EXAMPLE
+{"Situation":"The agent car is on a dimly lit road at 40 km/h, a walker 12 m ahead.","Reasoning":"Night reduces reaction time; slow to 30 km/h and prepare to stop.","Action":"speed_down"}
+{"Situation":"Clear right lane under street lights, speed 35 km/h.","Reasoning":"Visibility adequate, can change lane for faster route.","Action":"lane_changing_right"}
+
+[PART 5] FORMAT
+You should only respond in the format below:
+{"Situation":"......","Reasoning":"......","Action":"......"}

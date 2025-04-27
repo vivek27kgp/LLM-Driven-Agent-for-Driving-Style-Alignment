@@ -1,0 +1,296 @@
+time_s,time_r,message,response
+2025-04-15 16:07:20.977235,2025-04-15 16:07:26.582335,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 1.481760 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '-1.673861 m', 'Speed': '20.740860 km/h'}
+","{""Situation"": ""The agent car is stationary at the rear of another vehicle. Head movement is none."",
+""Reasoning"": ""To prevent collision, the agent car should stop completely."",
+""Action"": ""stop""}"
+2025-04-15 16:07:26.600513,2025-04-15 16:07:30.167480,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stationary at the rear of another vehicle. Head movement is none."", ""Reasoning"": ""To prevent collision, the agent car should stop completely."", ""Action"": ""stop""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.915290 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '1.490033 m', 'Speed': '23.659389 km/h'}
+","{""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}"
+2025-04-15 16:07:30.180607,2025-04-15 16:07:35.562276,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stationary at the rear of another vehicle. Head movement is none."", ""Reasoning"": ""To prevent collision, the agent car should stop completely."", ""Action"": ""stop""}, {""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.166120 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '3.789512 m', 'Speed': '25.608985 km/h'}
+","{""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."",
+
+""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."",
+     ""Action"": ""speed_down""}"
+2025-04-15 16:07:35.572853,2025-04-15 16:07:39.995627,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stationary at the rear of another vehicle. Head movement is none."", ""Reasoning"": ""To prevent collision, the agent car should stop completely."", ""Action"": ""stop""}, {""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.002826 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '7.637183 m', 'Speed': '28.364517 km/h'}
+","```json
+{""Situation"": ""The agent car is following a front vehicle 7.64 meters ahead moving at 28.36 km/h while moving at 0.002826 km/h. Both are moving straight."", ""Reasoning"": ""The front vehicle is barely braking and still close, the agent car need to decelerate to avoid possible collision. Because lane change is not allowed and the speed difference is minimal and stopping may cause unsafe gap in the following traffic."", ""Action"": ""maintain_speed""}
+```"
+2025-04-15 16:07:40.006503,2025-04-15 16:07:47.310606,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stationary at the rear of another vehicle. Head movement is none."", ""Reasoning"": ""To prevent collision, the agent car should stop completely."", ""Action"": ""stop""}, {""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000216 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:{'No.': 1, 'Distance': '11.071372 m', 'Speed': '30.486527 km/h'}
+","{""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"",
+ ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."",
+ ""Action"": ""speed_up""}"
+2025-04-15 16:07:47.323811,2025-04-15 16:07:53.890930,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stationary at the rear of another vehicle. Head movement is none."", ""Reasoning"": ""To prevent collision, the agent car should stop completely."", ""Action"": ""stop""}, {""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000018 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."",
+""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."",
+ ""Action"": ""speed_up""}"
+2025-04-15 16:07:53.900867,2025-04-15 16:07:58.804823,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 3.801170 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```{""Situation"": ""The agent car is moving steadily following its route. No obstacles or hazards are detected ahead on the lane."", ""Reasoning"": ""The agent car is driving closely to the speed limit of the lane. No obstacles or hazards are detected ahead. There are no vehicles, pedestrians, or upcoming traffic lights which may need stopping."", ""Action"": ""normal_behavior""}
+```"
+2025-04-15 16:07:58.811421,2025-04-15 16:08:03.923553,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 6.128206 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is driving forward on a road with no obstacles, pedestrian or traffic light ahead."",
+  ""Reasoning"": ""Continue navigating the road at the current speed while following waypoints provided by the global navigation planner."",
+  ""Action"": ""normal_behavior""
+}
+```"
+2025-04-15 16:08:03.929243,2025-04-15 16:08:11.019685,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following a moving vehicle straight ahead at less than 3 meters ahead at a higher speed."", ""Reasoning"": ""The agent car should continue to follow the front vehicle maintaining a safe distance."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 8.741492 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}"
+2025-04-15 16:08:11.031250,2025-04-15 16:08:14.956813,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.950378 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```{""Situation"": ""The agent car is following the lane, no vehicles or pedestrians ahead, and the speed limit is 30km/h."", ""Reasoning"": ""Since there are no obstacles ahead and the speed is below the limit, accelerate to the speed limit."", ""Action"": ""speed_up""}```"
+2025-04-15 16:08:14.964657,2025-04-15 16:08:20.729923,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.668577 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{
+
+""Situation"": ""The agent car is 11.668577 km/h in a 30 km/h limit on a clear lane. Based on previous behaviors, speeding up to normal is a safe choice, since the agent is now at a safe distance from vehicles ahead. The previous behaviors of ""stop"" and ""normal_behavior"" are Kept in ironic short term memory."",
+
+""Reasoning"": "" Based on the previous driving behaviors and the current speed information, if there are no pedestrians or vehicles in front of the agent car, it should gradually speed up to match the speed limit of the lane."",
+
+""Action"":""normal_behavior""
+
+}"
+2025-04-15 16:08:20.738768,2025-04-15 16:08:24.440217,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is moving towards the front vehicle at 0.17 km/h, 3.8 meters ahead while the front vehicle is going at 25.61 km/h."", ""Reasoning"": ""Since the agent car is too close to the front vehicle, it should avoid possible collision and maintain a safe distance."", ""Action"": ""speed_down""}, {""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.586493 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."",
+ ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."",
+ ""Action"": ""speed_up""}"
+2025-04-15 16:08:24.448103,2025-04-15 16:08:28.528563,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.593052 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+    ""Situation"": ""The agent car driving less than the speed limit on a road with no vehicle or pedestrian ahead, and a left lane change allowed."",
+      ""Reasoning"": ""The agent car should speed up to match the speed limit without changing lanes."",
+      ""Action"": ""speed_up""
+}
+```"
+2025-04-15 16:08:28.537180,2025-04-15 16:08:33.820924,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 12.900149 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is following the lane at 12.9km/h with no obstacles ahead, on a lane with a 30 km/h speed limit. No right lane changing is allowed and a left one is allowed."", ""Reasoning"": ""The car is running below the speed limit and should aim to increase it. Lane changing does not apply."",""Action"": ""maintain_speed""}
+```"
+2025-04-15 16:08:33.835790,2025-04-15 16:08:38.225256,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 15.208904 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is 15 km/h in the lane with no turns ahead and has no obstacles in front"",
+  ""Reasoning"": ""The car speed is low, without turns ahead and there is plenty of open road. Speed up to match the speed limit."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-15 16:08:38.234102,2025-04-15 16:08:43.187079,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The car is at a near stop in the middle of the lane, following a vehicle at 11 meters ahead"", ""Reasoning"": ""While the car is too close to the front vehicle, though it is moving relatively fast, there's at least 11 meters between both cars. In this case, the car should resume the speed to keep a great distance, be ready to use actions like maintaining current speed, or speeding up depending on the distance from the car ahead."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 17.076829 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "",""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"":""maintain_speed""}"
+2025-04-15 16:08:43.196758,2025-04-15 16:08:47.756090,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.787665 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","RESPONSE FORMAT: {""Situation"": ""The agent car is driving straight at 18.787 km/h, no obstacles ahead, and the speed limit is 30 km/h."",
+""Reasoning"": ""No need to stop. Follow the path and increase the speed further."",
+""Action"": ""maintain_speed""}"
+2025-04-15 16:08:47.773109,2025-04-15 16:08:51.573097,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.461252 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.STRAIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is following the lane with no pedestrians and vehicles ahead. Both the car's speed at 18.461252 km/h and the road's speed limit at 30km/h."",
+  ""Reasoning"": ""Based on the environment, the current speed is below the speed limit with no obstacles ahead. Maintain the current speed."",
+  ""Action"": ""maintain_speed""
+}
+```"
+2025-04-15 16:08:51.582539,2025-04-15 16:08:56.417339,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.356990 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.STRAIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is maintaining a stable speed following the lane, no traffic lights or pedestrians or vehicles ahead, speed limit is 30 km/h."",
+
+""Reasoning"": ""The local planner means the current route is straight. There is no immediate obstacle. The agent car should accelerate until it reaches the speed limit."",
+
+""Action"": ""speed_up""}
+```"
+2025-04-15 16:08:56.424470,2025-04-15 16:09:00.917465,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is almost stationary, clear of vehicles or pedestrians ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since there's no vehicle and pedestrians ahead, the agent car should speed up to maintain the regular flow."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.378481 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.STRAIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is following the lane, with no vehicles or pedestrians ahead and the traffic light indicating green. The speed is 18.378481km/h and limit is 30km/h, left lane change is allowed."", ""Reasoning"": ""The agent car should accelerate its speed to go closer to the speed limit."",
+ ""Action"":""speed_up""}"
+2025-04-15 16:09:00.927159,2025-04-15 16:09:05.555924,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane, with no vehicles or pedestrians ahead and the traffic light indicating green. The speed is 18.378481km/h and limit is 30km/h, left lane change is allowed."", ""Reasoning"": ""The agent car should accelerate its speed to go closer to the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.376572 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.STRAIGHT
+Car_Incoming_direction:RoadOption.STRAIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```
+{""Situation"": ""The agent car is traveling straight at 18.4 km/h under a 30km/h limit with no vehicles or walkers ahead and the traffic light is green."",
+""Reasoning"": ""The agent car maintains steady speed, but medium acceleration to avoid jeopardizing the rear-end collision from cars behind. Keep within the speed limit."",
+""Action"":""speed_up""}
+```"
+2025-04-15 16:09:05.571615,2025-04-15 16:09:12.040549,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane, with no vehicles or pedestrians ahead and the traffic light indicating green. The speed is 18.378481km/h and limit is 30km/h, left lane change is allowed."", ""Reasoning"": ""The agent car should accelerate its speed to go closer to the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 19.487841 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.STRAIGHT
+Car_Incoming_direction:RoadOption.STRAIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is driving straight without any obstacles ahead.Current speed is 19.5 km/h."",
+""Reasoning"": ""There are no obstacles ahead and the car is below the speed limit. Speed up to 30km/h."",
+ ""Action"": ""speed_up""}
+```"
+2025-04-15 16:09:12.048184,2025-04-15 16:09:17.528334,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently following the lane. Vehicle and pedestrian ahead are false."", ""Reasoning"": ""The agent car should increase the car speed to match the speed limit."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane at 11.6km/h with no vehicle or pedestrian ahead, on a lane with a 30 km/h speed limit."", ""Reasoning"": ""Since the agent car has no obstacles ahead and its speed is less than the limit. Speed up to the limit."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane at 17 km/h with no cars or pedestrians ahead. A lane change to the left is allowed, the speed limit is 30 km/h. There is no nearby vehicle nor pedestrian for the agent car to navigate around. "", ""Reasoning"": ""The agent car is following the lane at a safe speed. Maintain the current speed. Keep >= 0.5 distance from cars ahead."", ""Action"": ""maintain_speed""}, {""Situation"": ""The agent car is following the lane, with no vehicles or pedestrians ahead and the traffic light indicating green. The speed is 18.378481km/h and limit is 30km/h, left lane change is allowed."", ""Reasoning"": ""The agent car should accelerate its speed to go closer to the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 21.119740 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.STRAIGHT
+Car_Incoming_direction:RoadOption.STRAIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is currently driving straight at 21.11 km/h, with no vehicles or walkers ahead, and no lane changes allowed to the right. The speed limit is 30km/h and the left lane change is allowed."", ""Reasoning"": ""Avoid a left lane change, as it's unnecessary. The speed should be increased to match the speed limit."", ""Action"":""speed_up""}"

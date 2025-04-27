@@ -1,0 +1,461 @@
+time_s,time_r,message,response
+2025-04-06 00:19:43.416130,2025-04-06 00:19:48.683652,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.642096 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "",
+ ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}"
+2025-04-06 00:19:48.698152,2025-04-06 00:19:51.986193,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.211981 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is moving along the lane, no vehicles or pedestrians ahead. Traffic light is green."", ""Reasoning"": ""The agent car keeps a reasonable speed behind the speed limit. Slight acceleration to match the speed limit."",
+ ""Action"": ""Action"":""speed_up""}."
+2025-04-06 00:19:51.991569,2025-04-06 00:19:57.083600,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.629706 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+ {
+  ""Situation"": ""The car has started to speedup but it's going very slowly, approaching a right turn with one lane ahead, no vehicles or walkers ahead, left lane change allowed."",
+  ""Reasoning"": ""The car is started but it's extremely slow. Maintain lane-following and accelerate gradually until match the speed limit."",
+  ""Action"": ""speed_up""
+ }
+```"
+2025-04-06 00:19:57.089455,2025-04-06 00:20:01.867009,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.352315 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."",
+""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."",
+ ""Action"":""normal_behavior""}"
+2025-04-06 00:20:01.874161,2025-04-06 00:20:06.593987,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}, {""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 4.301263 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": "" The agent car is following the lane and the upcoming traffic light is green."",
+  ""Reasoning"": ""Slow acceleration to the speed limit as no vehicles or walkers are around. Avoid lane changes since a Right turn is upcoming"",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-06 00:20:06.599734,2025-04-06 00:20:13.204148,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}, {""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 7.304840 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}"
+2025-04-06 00:20:13.207546,2025-04-06 00:20:16.745495,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}, {""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 11.509641 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","The agent car is currently driving straight ahead towards the right, keeping with the speed limit. There are neither vehicles nor pedestrians ahead of the agent car. The traffic light is green, left lane change is allowed.
+    {""Situation"": ""The agent car is going to turn right with no vehicles or pedestrians ahead."", ""Reasoning"": ""Accelerate gently to the speed limit while following right turn and worry about lane changes after the turn."", ""Action"": ""speed_up""}"
+2025-04-06 00:20:16.748631,2025-04-06 00:20:19.827058,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}, {""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 14.049771 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "",
+""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."",
+""Action"": ""speed_up""}"
+2025-04-06 00:20:19.830049,2025-04-06 00:20:23.540306,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}, {""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 16.393938 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+""Situation"": ""The agent car is following the lane at 16.39 km/h. The incoming direction is right and there are no pedestrians, vehicles ahead or traffic lights. There is no right lane change. "",
+""Reasoning"": ""The agent car is far below the speed limit. Given that there are no vehicles or walkers ahead, accelerate gently towards the speed limit."",
+""Action"": ""speed_up""
+}
+```"
+2025-04-06 00:20:23.545078,2025-04-06 00:20:26.472608,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is stopped following the lane with traffic light green ahead. "", ""Reasoning"": ""Maintain lane-following. Lane change to the left is allowed as there are no vehicles or walkers around. Slow acceleration to match the speed limit. "", ""Action"": ""speed_up""}, {""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.081446 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."",
+ ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."",
+ ""Action"":""speed_up""}"
+2025-04-06 00:20:26.477438,2025-04-06 00:20:31.443519,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 18.750146 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is approaching a right turn at 18.75 km/h, on a road with a 30 km/h speed limit and no traffic lights or obstacles ahead."",
+  ""Reasoning"": ""The agent car should accelerate. This will help ensure a smooth and safe right turn."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-06 00:20:31.449071,2025-04-06 00:20:36.539699,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 19.669417 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is taking a right turn at 19.67 km/h with no traffic lights, vehicles, or walkers ahead."",
+""Reasoning"": ""The agent car is turning right and can accelerate gently. Maintain right turn and increase speed towards the limit."",
+""Action"":""speed_up""}
+```"
+2025-04-06 00:20:36.550165,2025-04-06 00:20:41.403532,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 20.498703 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is turning right at speed below the limit. There are No collision, walkers or traffic lights."",
+  ""Reasoning"": ""The agent car is turning right. A slight increase in speed is necessary for a smoother turn. Since there is no collision risk to avoid and lane change isn't feasible, maintain smooth acceleration."",
+  ""Action"": ""speed_up""
+ }
+```"
+2025-04-06 00:20:41.409238,2025-04-06 00:20:47.797995,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 21.169702 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+    ""Situation"": ""The agent car is turning right, there is no vehicle or walker ahead."",
+     ""Reasoning"": ""The agent car should accelerate gently while turning right and approaching the path planned out."",
+      ""Action"": ""speed_up""
+}
+```
+
+```json
+{""Situation"": ""The agent car is turning right, there is no vehicle or walker ahead."", ""Reasoning"": ""The agent car should accelerate gently while turning right and approaching the path planned out."", ""Action"": ""speed_up""}
+```"
+2025-04-06 00:20:47.803805,2025-04-06 00:20:52.763799,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 21.927010 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is turning right on a green light with no traffic and empty road."",
+""Reasoning"": ""Given the empty road ahead and a current speed that is lower than the speed limit, increase speed at the turn."",
+""Action"": ""speed_up""}
+```"
+2025-04-06 00:20:52.768276,2025-04-06 00:20:57.610183,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car time to enter main road with no traffic jam around and traffic light green."", ""Reasoning"": ""Based on the previous driving behaviors and the current state, bring the current speed close to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 22.401472 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."",
+ ""Reasoning"": "" Accelerate while completing the current right turn."",
+ ""Action"": ""speed_up"" }"
+2025-04-06 00:20:57.615392,2025-04-06 00:21:03.556006,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is approaching a right turn at a low speed with no traffic lights."", ""Reasoning"": ""The lane change to the left is allowed when no vehicles or walkers are ahead. Monitor and accelerate gently to the speed limit."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 22.794351 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{
+""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."",
+  ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."",
+  ""Action"": ""speed_up""
+  }"
+2025-04-06 00:21:03.563354,2025-04-06 00:21:08.560196,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 23.265864 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent vehicle is currently turning right. There are no nearby walkers. No obstacles ahead. Speeds below limit and the traffic light in front is green."",
+  ""Reasoning"": ""The agent car is currently turning right.The speed is low and has not reached the speed limit. Acceleration section during the turn. "",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-06 00:21:08.565700,2025-04-06 00:21:12.862127,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car following the lane approaching the right turn ahead at low speed. "", ""Reasoning"": ""Given that the agent car is following the lane with an upcoming right turn ahead, has an allowed left lane change. Accelerate towards the speed limit."", ""Action"": ""speed_up""}, {""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 23.563823 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is turning right with no obstacles or traffic signals."",
+ ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."",
+ ""Action"": ""speed_up""}"
+2025-04-06 00:21:12.871339,2025-04-06 00:21:17.098868,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 23.736994 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","RESPONSE FORMAT: { ""Situation"": ""There are no vehicles or traffic lights ahead, the agent car is turning right, and its speed is below the limit."",
+ ""Reasoning"": ""Since the agent car is currently turning right and there are no obstacles ahead and it is allowed to do so. Continue going in the current direction and speed up to reach the speed limit."",
+ ""Action"": ""speed_up"" }"
+2025-04-06 00:21:17.114520,2025-04-06 00:21:21.654029,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 23.860065 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{
+
+""Situation"": ""The agent car is currently turning right at the speed of 23.86 km/h, no vehicles or pedestrians are in the way, and all road waypoints indicates turning right while speed is below the road limit.""}"",
+
+""Reasoning"": ""Continue accelerating to align car speed with the speed limit, keeping the direction towards the current waypoint and maintaining the navigation plan.""},
+
+""Action"": ""speed_up""},"
+2025-04-06 00:21:21.668200,2025-04-06 00:21:27.192916,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 23.911189 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is turning right with no vehicles or walkers ahead and speed below the limit."", ""Reasoning"": ""Based on tactical awareness and current state, the speed must be increased for maintaining tactical operation."", ""Action"": ""speed_up""}
+```"
+2025-04-06 00:21:27.198069,2025-04-06 00:21:31.274717,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.028511 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"":""The agent car is completing the right turn with no obstacles or traffic lights ahead and its speed is below the limit."", ""Reasoning"": ""With a clear right turn ahead and no obstacles, continue accelerating to match the speed limit."", ""Action"":""speed_up""}
+```"
+2025-04-06 00:21:31.278956,2025-04-06 00:21:37.588809,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": "" The car must turn right and its speed is below the limit and no vehicles or walkers ahead."", ""Reasoning"": ""Agent car is in a right turn scenario. Accelerate while approaching the turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.327002 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.RIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"":""ACTION_NAME: speed_up""}"
+2025-04-06 00:21:37.593919,2025-04-06 00:21:41.042442,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right with a lower speed than the road limit. There are no vehicles or walkers in front of the agent car and no traffic lights ahead."", ""Reasoning"": "" Accelerate while completing the current right turn."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.554663 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}"
+2025-04-06 00:21:41.047995,2025-04-06 00:21:43.525804,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.681600 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is driving straight, following the lane without any obstacles, traffic lights, or lane change options."",
+  ""Reasoning"": ""Following previous behaviors and given the clear path ahead, continue to accelerate to stay within the speed limit."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-06 00:21:43.541657,2025-04-06 00:21:46.272171,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.719885 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car is driving ahead and following lanes, and the road is clear."", ""Reasoning"": ""Since the road ahead is clear, the agent car can accelerate towards speed limit."", ""Action"": ""speed_up""}
+```"
+2025-04-06 00:21:46.276664,2025-04-06 00:21:48.992219,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right with allowed road waypoint direction. The car is driving smoothly with no traffic lights, walkers, or vehicles in the way. The speed should be increased."", ""Reasoning"": ""The agent car's following prediction points are on the right, which indicates that the agent car is going to turn right. With no obstacles ahead and the speed being below the limit, the agent car should accelerate cautiously."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.780724 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is following the lane on a clear city road."",
+""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."",
+""Action"": ""Action:speed_up""}"
+2025-04-06 00:21:48.998693,2025-04-06 00:21:52.597241,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear city road."", ""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."", ""Action"": ""Action:speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 24.900621 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+   ""Situation"":""The agent car is following the lane on a clear road without obstacles or traffic light ahead."",
+    ""Reasoning"":""Based on all of the given INFORMATION, the agent car can maintain its current navigation route and accelerate to approach the speed limit."",
+    ""Action"":""speed_up""
+ }
+```"
+2025-04-06 00:21:52.601881,2025-04-06 00:21:56.299802,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right with no obstacles or traffic signals."", ""Reasoning"": ""Accelerate and complete the right turn, maintaining navigation direction."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear city road."", ""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."", ""Action"": ""Action:speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 25.013234 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{
+""Situation"": ""The agent car is currently moving straight on an empty road with no obstacles. Speed is below limit."",
+""Reasoning"": ""The agent car should continue moving straight with allowed lane change to the left and with safely accelerating speed."",
+""Action"": ""ACTION_NAME: speed_up""
+}"
+2025-04-06 00:21:56.318841,2025-04-06 00:22:00.271409,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is turning right at 24.327002 km/h with no vehicles, walkers, or traffic ahead."", ""Reasoning"": ""Based on past driving behaviors and the current state, within post of safety rule this agent car can accelerate safely, and maintain the current trajectory."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear city road."", ""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."", ""Action"": ""Action:speed_up""}, {""Situation"": ""The agent car is currently moving straight on an empty road with no obstacles. Speed is below limit."", ""Reasoning"": ""The agent car should continue moving straight with allowed lane change to the left and with safely accelerating speed."", ""Action"": ""ACTION_NAME: speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 25.115623 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is following its lane on the main road. There are no vehicles nor pedestrians ahead. Current speed is below the speed limit."",
+ ""Reasoning"": ""Based on past driving behaviors and the current state, continue accelerating to maintain normal behavior. Lane change options are present but optional."",
+ ""Action"":""speed_up""}"
+2025-04-06 00:22:00.287094,2025-04-06 00:22:03.693327,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is driving straight without traffic lights, walkers, or vehicles ahead."", ""Reasoning"": ""Accelerate and follow navigation along the current trajectory as planned."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear city road."", ""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."", ""Action"": ""Action:speed_up""}, {""Situation"": ""The agent car is currently moving straight on an empty road with no obstacles. Speed is below limit."", ""Reasoning"": ""The agent car should continue moving straight with allowed lane change to the left and with safely accelerating speed."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is following its lane on the main road. There are no vehicles nor pedestrians ahead. Current speed is below the speed limit."", ""Reasoning"": ""Based on past driving behaviors and the current state, continue accelerating to maintain normal behavior. Lane change options are present but optional."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 25.212001 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is following the lane on a clear road. No traffic lights, pedestrians, or other vehicles."", ""Reasoning"": ""The road is clear. adjustable lane change to the left. Safe distance. Follow lane and accelerate."", ""Action"": ""ACTION_NAME: speed_up""}"
+2025-04-06 00:22:03.698927,2025-04-06 00:22:07.983515,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane on a clear city road."", ""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."", ""Action"": ""Action:speed_up""}, {""Situation"": ""The agent car is currently moving straight on an empty road with no obstacles. Speed is below limit."", ""Reasoning"": ""The agent car should continue moving straight with allowed lane change to the left and with safely accelerating speed."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is following its lane on the main road. There are no vehicles nor pedestrians ahead. Current speed is below the speed limit."", ""Reasoning"": ""Based on past driving behaviors and the current state, continue accelerating to maintain normal behavior. Lane change options are present but optional."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear road. No traffic lights, pedestrians, or other vehicles."", ""Reasoning"": ""The road is clear. adjustable lane change to the left. Safe distance. Follow lane and accelerate."", ""Action"": ""ACTION_NAME: speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 25.291875 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car has a clear path with no pedestrians or vehicles ahead on a straight section of a clear road. Speed is below the limit and no traffic light is ahead"",
+  ""Reasoning"": ""Continue relying on the ROAD_INCOMING_DIRECTION value and call the speed_up function based on past driving behaviors to accelerate"",
+  ""Action"": ""ACTION_NAME: speed_up""
+}
+```"
+2025-04-06 00:22:07.991268,2025-04-06 00:22:12.138043,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is following the lane on a clear city road."", ""Reasoning"": ""Considering that the traffic is clear and the current speed is below limits, the agent car should maintain a speed-up behavior."", ""Action"": ""Action:speed_up""}, {""Situation"": ""The agent car is currently moving straight on an empty road with no obstacles. Speed is below limit."", ""Reasoning"": ""The agent car should continue moving straight with allowed lane change to the left and with safely accelerating speed."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is following its lane on the main road. There are no vehicles nor pedestrians ahead. Current speed is below the speed limit."", ""Reasoning"": ""Based on past driving behaviors and the current state, continue accelerating to maintain normal behavior. Lane change options are present but optional."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear road. No traffic lights, pedestrians, or other vehicles."", ""Reasoning"": ""The road is clear. adjustable lane change to the left. Safe distance. Follow lane and accelerate."", ""Action"": ""ACTION_NAME: speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 25.384823 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent is following its lane on a clear road but needs to turn right in the future"", ""Reasoning"": ""Continue following lane and speed up as there are no vehicles or pedestrians ahead. Maintain the safe distance and increase speed carefully"", ""Action"":""ACTION_NAME: speed_up""}"
+2025-04-06 00:22:12.145942,2025-04-06 00:22:17.322817,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently moving straight on an empty road with no obstacles. Speed is below limit."", ""Reasoning"": ""The agent car should continue moving straight with allowed lane change to the left and with safely accelerating speed."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent car is following its lane on the main road. There are no vehicles nor pedestrians ahead. Current speed is below the speed limit."", ""Reasoning"": ""Based on past driving behaviors and the current state, continue accelerating to maintain normal behavior. Lane change options are present but optional."", ""Action"": ""speed_up""}, {""Situation"": ""The agent car is following the lane on a clear road. No traffic lights, pedestrians, or other vehicles."", ""Reasoning"": ""The road is clear. adjustable lane change to the left. Safe distance. Follow lane and accelerate."", ""Action"": ""ACTION_NAME: speed_up""}, {""Situation"": ""The agent is following its lane on a clear road but needs to turn right in the future"", ""Reasoning"": ""Continue following lane and speed up as there are no vehicles or pedestrians ahead. Maintain the safe distance and increase speed carefully"", ""Action"": ""ACTION_NAME: speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 25.464407 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.RIGHT
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:True
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"":""The agent car is following its lane on a clear road. It needs to turn right in the future. Current speed is below the speed limit. No traffic lights, pedestrians, or other vehicles ahead."", ""Reasoning"":""Continue accelerating on lane. Safe distance,road clear.Walkers and vehicles are not detected. Lane change to the left is optional."",   ""Action"":""ACTION_NAME: speed_up""}"

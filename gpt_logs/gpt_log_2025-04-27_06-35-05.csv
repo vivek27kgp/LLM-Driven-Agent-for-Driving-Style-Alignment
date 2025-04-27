@@ -1,0 +1,165 @@
+time_s,time_r,message,response
+2025-04-27 06:35:05.381055,2025-04-27 06:35:11.085668,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 1.058400 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is stopped following lane, no vehicles, no walkers ahead,_RIGHT lane change allowed"",
+  ""Reasoning"": ""No obstacle, follow lane, Okay to accelerate"",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-27 06:35:11.101175,2025-04-27 06:35:14.685566,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 10.795686 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```{""Situation"": ""The agent vehicle is in a straight lane following the road, with no walkers and no vehicles ahead."",
+""Reasoning"": ""Since there are no obstacles in front, maintain current speed. "",
+""Action"":""maintain_speed""}```"
+2025-04-27 06:35:14.710427,2025-04-27 06:35:18.603578,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.618352 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+   ""Situation"":""The agent car is stopped. The traffic light is green and the road is clear ahead. The agent car is allowed to change to the right lane but not to the left. "",
+    ""Reasoning"": ""The car should proceed forward, following the road, as the traffic light is green and there are no obstructions."",
+    ""Action"": ""Action"":""normal_behavior""
+}
+```"
+2025-04-27 06:35:18.618792,2025-04-27 06:35:21.537332,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.562069 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The car is slightly moving in the lane, with no red light and no obstacles ahead.""
+""Reasoning"": ""Increase speed to reach the speed limit and drive along the global navigation path to the destination.""
+""Action"":""normal_behavior""}"
+2025-04-27 06:35:21.559231,2025-04-27 06:35:25.269727,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.209738 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car has almost stopped at night, on an empty road section, with no traffic lights and no lane change opportunity on its left side."",
+  ""Reasoning"": ""Since there are no vehicles, pedestrians or traffic lights nearby, the agent could reaccelerate up to the speed limit."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-27 06:35:25.281174,2025-04-27 06:35:29.933281,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.046981 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."",
+ ""Reasoning"": ""The agent car should now drive normally to follow the lane."",
+ ""Action"": ""normal_behavior""}"
+2025-04-27 06:35:29.974791,2025-04-27 06:35:34.271115,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."", ""Reasoning"": ""The agent car should now drive normally to follow the lane."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.006292 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": ""The agent car has stopped and is about to proceed on an empty road maintaining the currently low speed"", ""Reasoning"": ""Based on driving behaviors and current state, the agent car should drive at a normal speed within the 30 km/h speed limit."", ""Action"":""normal_behavior""}
+```"
+2025-04-27 06:35:34.286633,2025-04-27 06:35:37.132265,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."", ""Reasoning"": ""The agent car should now drive normally to follow the lane."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000695 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{""Situation"": "" The agent car is in the middle of a lane position change to the right. Both ahead lanes are empty, no traffic light ahead."", ""Reasoning"": ""Adhere to the preset lane change manner, keep changing to the right lane."", ""Action"": ""maintain_speed""}
+```"
+2025-04-27 06:35:37.172774,2025-04-27 06:35:42.840460,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."", ""Reasoning"": ""The agent car should now drive normally to follow the lane."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.000485 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is still stopped on a wide road changing rightwards but faces nothing beside safety signs."",
+  ""Reasoning"": ""Drive on for smooth incoming navigation."",
+  ""Action"": ""normal_behavior""
+}
+```"
+2025-04-27 06:35:42.866377,2025-04-27 06:35:46.909583,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."", ""Reasoning"": ""The agent car should now drive normally to follow the lane."", ""Action"": ""normal_behavior""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 2.574346 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent is changing to the right lane. Safe to complete the lane change."",
+ ""Reasoning"": ""The agent car is already changing lanes to the right, and the lane change is allowed."",
+ ""Action"": ""lane_changing_right""}"
+2025-04-27 06:35:46.921240,2025-04-27 06:35:50.161783,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."", ""Reasoning"": ""The agent car should now drive normally to follow the lane."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent is changing to the right lane. Safe to complete the lane change."", ""Reasoning"": ""The agent car is already changing lanes to the right, and the lane change is allowed."", ""Action"": ""lane_changing_right""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 2.728609 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{
+
+  ""Situation"": ""The agent car is changing lanes to the right with no obstacles or traffic lights ahead.""
+
+, ""Reasoning"": ""The agent car is already changing lanes to the right. Maintain right lane change and proceed.""
+
+, ""Action"": ""lane_changing_right""
+
+}"
+2025-04-27 06:35:50.177776,2025-04-27 06:35:53.360182,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is currently stopped following the lane at a very low speed below the limit of 30 km/h. Empty road ahead on crowded road without those at the traffic light or making turns."", ""Reasoning"": ""The agent car should now drive normally to follow the lane."", ""Action"": ""normal_behavior""}, {""Situation"": ""The agent is changing to the right lane. Safe to complete the lane change."", ""Reasoning"": ""The agent car is already changing lanes to the right, and the lane change is allowed."", ""Action"": ""lane_changing_right""}, {""Situation"": ""The agent car is changing lanes to the right with no obstacles or traffic lights ahead."", ""Reasoning"": ""The agent car is already changing lanes to the right. Maintain right lane change and proceed."", ""Action"": ""lane_changing_right""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 2.728609 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.CHANGELANERIGHT
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:True
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","[{""Situation"": ""The agent car is changing to the right lane with no nearby vehicles or obstacles."", ""Reasoning"": ""The agent car should complete changing to the right lane and keep driving normally."", ""Action"": ""lane_changing_right""}, {""Situation"":"" After completing the lane change the agent car should keep driving normally. "", ""Reasoning"":"" Safe to apply normal behavior."", ""Action"":""normal_behavior""}]"

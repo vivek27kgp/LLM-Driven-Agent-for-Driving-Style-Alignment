@@ -1,0 +1,69 @@
+time_s,time_r,message,response
+2025-04-15 09:46:07.456137,2025-04-15 09:46:11.369852,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.740880 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+  ""Situation"": ""The agent car is on the lane, traveling slowly with no obstacles ahead and no traffic light."",
+  ""Reasoning"": ""The agent car should accelerate to approach the speed limit."",
+  ""Action"": ""speed_up""
+}
+```"
+2025-04-15 09:46:11.401097,2025-04-15 09:46:15.870619,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 7.853317 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","```json
+{
+ ""Situation"": ""The agent car is moving at 7.853 km/h while lane following on a road with a 30 km/h limit. There are no traffic lights, vehicles, or pedestrians ahead."",
+ ""Reasoning"": ""The agent car should accelerate to match the road speed limit while maintaining its lane."",
+ ""Action"": ""normal_behavior""
+}
+```"
+2025-04-15 09:46:15.889644,2025-04-15 09:46:20.655542,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.253464 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","Regarding your request, here is the result of the **Agent Car** driving behavior determination.
+
+{""Situation"": ""The agent car is currently stopped on a road with no traffic lights, walkers, or ahead vehicles."", ""Reasoning"": ""Given the current situation, the agent car is stopped and there is no obstacle or traffic light; the agent car should now proceed with normal behavior."", ""Action"": ""normal_behavior""}"
+2025-04-15 09:46:20.675197,2025-04-15 09:46:25.956373,"PREVIOUS DRIVING BEHAVIORS: null, CURRENT STATE & ENVIRONMENT：Car_Speed: 0.588842 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car is slowly driving on the lane with no vehicles or pedestrians ahead."",
+ ""Reasoning"": ""The agent car should accelerate to match the speed limit given that it is moving very slowly and it has the right of way."",
+ ""Action"": ""speed_up""}"
+2025-04-15 09:46:25.975564,2025-04-15 09:46:31.146785,"PREVIOUS DRIVING BEHAVIORS: [{""Situation"": ""The agent car is slowly driving on the lane with no vehicles or pedestrians ahead."", ""Reasoning"": ""The agent car should accelerate to match the speed limit given that it is moving very slowly and it has the right of way."", ""Action"": ""speed_up""}], CURRENT STATE & ENVIRONMENT：Car_Speed: 0.088932 km/h
+Car_Speed_limit:30.0 km/h
+Car_Direction:RoadOption.LANEFOLLOW
+Car_Incoming_direction:RoadOption.LANEFOLLOW
+Car_at_Traffic_light:False
+is_right_lane_change_allowed:False
+is_left_lane_change_allowed:False
+Walkers_ahead:False
+Vehicle_ahead:False
+","{""Situation"": ""The agent car has been decelerating and is almost at a halt with no vehicles or pedestrians ahead or oncoming."",
+ ""Reasoning"":""With no obstructions ahead and a clear right of way, the agent car should gradually increase speed to match the speed limit."",
+  ""Action"": ""maintain_speed""}"
